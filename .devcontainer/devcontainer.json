@@ -1,0 +1,28 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Tour of heroes API in Node.js container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/express-generator:2": {
+			"version": "latest"
+		}
+	},
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"routes/heroes.js"
+			]
+		},
+		"vscode": {
+			"extensions": [
+				
+			]
+		}
+	},
+	"appPort": 3000,
+	// "forwardPorts": [3000],
+	"postStartCommand": "DEBUG=tour-of-heroes-api-nodejs:* npm start"
+}
