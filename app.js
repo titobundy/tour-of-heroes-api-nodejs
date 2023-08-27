@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -6,6 +8,10 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var heroesRouter = require('./routes/heroes');
+
+console.log('DB_PASSWORD:', process.env.DB_PASSWORD);
+console.log('USER_PWD:', process.env.USER_PWD);
 
 var app = express();
 

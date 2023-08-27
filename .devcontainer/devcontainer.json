@@ -6,9 +6,7 @@
 	},
 	"remoteUser": "node",
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/express-generator:2": {
-			"version": "latest"
-		}
+		"ghcr.io/devcontainers-contrib/features/express-generator:2": {}
 	},
 	"customizations": {
 		"codespaces": {
@@ -18,7 +16,8 @@
 		},
 		"vscode": {
 			"extensions": [
-				
+				"ms-azuretools.vscode-docker",
+				"dotenv.dotenv-vscode"
 			]
 		}
 	},
