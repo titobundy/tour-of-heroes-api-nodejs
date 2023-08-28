@@ -133,3 +133,4 @@ dist
 !.env.project
 !.env.vault
 .vscode/.DS_Store
+target/npmlist.json
