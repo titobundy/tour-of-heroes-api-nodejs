@@ -11,7 +11,7 @@
     "debug": "~2.6.9",
     "dotenv": "^16.3.1",
     "express": "~4.16.1",
-    "http-errors": "~1.6.3",
+    "http-errors": "~1.8.1",
     "jade": "~1.11.0",
     "morgan": "~1.8.0",
     "tedious": "^16.4.0"
