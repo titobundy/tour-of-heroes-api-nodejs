@@ -7,10 +7,10 @@
     "start-with-1pwd": "op run --no-masking --env-file=1password.env -- node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
+    "cookie-parser": "~1.4.7",
     "debug": "~2.6.9",
     "dotenv": "^16.3.1",
-    "express": "~4.16.1",
+    "express": "~4.21.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.8.0",
